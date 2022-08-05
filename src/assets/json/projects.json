@@ -1,0 +1,43 @@
+[
+    {
+        "name": "Location Project",
+        "stack": {
+            "name": "HTML",
+            "iconClasses": "fa-brands fa-html5"
+        },
+        "description": "An interactive map that serves to show the location of a company's offices",
+        "sourceUrl": "https://github.com/paulodinizz/locationFinalProject",
+        "previewUrl": "https://app.netlify.com/sites/locationproject/overview",
+        "featured": true
+    },
+    {
+        "name": "E-commerce Store",
+        "stack": {
+            "name": "Angular",
+            "iconClasses": "fab fa-angular"
+        },
+        "description": "Ecommerce project made with ionic and angular, not finished yet",
+        "sourceUrl": "https://github.com/paulodinizz/ecommerce",
+        "featured": true
+    },
+    {
+        "name": "Sneaker Store",
+        "stack": {
+            "name": "HTML",
+            "iconClasses": "fa-brands fa-html5"
+        },
+        "description": "I'm developing this sneaker store project using HTML/CSS/JAVASCRIPT and some bootstrap functionality.",
+        "sourceUrl": "https://github.com/paulodinizz/noiserSneaker",
+        "featured": true
+    },
+    {
+        "name": "Planet Explorer",
+        "stack": {
+            "name": "Angular",
+            "iconClasses": "fab fa-angular"
+        },
+        "description": "I'm developing this sneaker store project using HTML/CSS/JAVASCRIPT and some bootstrap functionality.",
+        "sourceUrl": "https://github.com/paulodinizz/planetExplorer",
+        "featured": true
+    }
+]
