@@ -5,8 +5,7 @@ html, body {
 
 body {
     font-family: 'Nunito', Arial, Verdana, Geneva, Tahoma, sans-serif;
-    background: white;
-    background-image: radial-gradient(lightgray 5.5%, transparent 0);
+    background: rgb(0, 0, 0);
     background-size: 30px 30px;
 }
 
@@ -24,4 +23,17 @@ body {
 
 .min-vh-10 {
     min-height: 10vh;
+}
+
+.text-color1{
+    color: white;
+}
+.text-color2{
+    color: black;
+}
+.card-height{
+    min-height: 100px;
+}
+.card-zoomIn:hover{
+    transform: scale(1.1);
 }

@@ -4,9 +4,9 @@
     <div class="d-flex vw-90"
         [ngClass]="{'justify-content-center flex-wrap': !options.displayInColumn, 'flex-column  align-items-center': options.displayInColumn}"
         *ngIf="projects$ | async as projects">
-        <div *ngFor="let project of projects" class="card project-card m-3"
+        <div *ngFor="let project of projects" class="card project-card m-3 card-zoomIn"
             [ngClass]="{'m-3': !options.displayInColumn, 'mb-3': options.displayInColumn}">
-            <div class="card-body d-flex flex-column">
+            <div class="card-body d-flex flex-column text-color2">
                 <h5 class="card-title font-weight-bold text-left project-title" [title]="project.name">
                     {{project.name}}
                 </h5>
@@ -14,7 +14,7 @@
                     <i [ngClass]="project.stack.iconClasses"></i>
                     {{project.stack.name}}
                 </h6>
-                <p class="card-text text-left">
+                <p class="card-text text-left card-height">
                     {{project.description}}
                 </p>
                 <div class="d-flex flex-row justify-content-start">
