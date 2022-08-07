@@ -1,42 +1,42 @@
 [
     {
-        "name": "Location Project",
+        "name": "Projeto de localização",
         "stack": {
             "name": "HTML",
             "iconClasses": "fab fa-html5"
         },
-        "description": "An interactive map that serves to show the location of a company's offices",
+        "description": "Um mapa interativo que serve para mostrar a localização dos escritórios de uma empresa",
         "sourceUrl": "https://github.com/paulodinizz/locationFinalProject",
         "previewUrl": "https://locationproject.netlify.app/",
         "featured": true
     },
     {
-        "name": "E-commerce Store",
+        "name": "Ecommerce",
         "stack": {
             "name": "Angular",
             "iconClasses": "fab fa-angular"
         },
-        "description": "Ecommerce project made with ionic and angular, not finished yet",
+        "description": "Projeto de ecommerce feito com Ionic e Angular, ainda não finalizado",
         "sourceUrl": "https://github.com/paulodinizz/ecommerce",
         "featured": true
     },
     {
-        "name": "Sneaker Store",
+        "name": "Loja de tênis",
         "stack": {
             "name": "HTML",
             "iconClasses": "fab fa-html5"
         },
-        "description": "I'm developing this sneaker store project using HTML/CSS/JAVASCRIPT and some bootstrap functionality.",
+        "description": "Estou desenvolvendo este projeto de loja de tênis usando HTML/CSS/JAVASCRIPT e algumas funcionalidades de bootstrap.",
         "sourceUrl": "https://github.com/paulodinizz/noiserSneaker",
         "featured": true
     },
     {
-        "name": "Planet Explorer",
+        "name": "Explorador de planetas",
         "stack": {
             "name": "Angular",
             "iconClasses": "fab fa-angular"
         },
-        "description": "A planet explorer made with Angular.",
+        "description": "Um explorador de planetas feito com Angular.",
         "sourceUrl": "https://github.com/paulodinizz/planetExplorer",
         "featured": true
     }

@@ -12,8 +12,8 @@ export class HeaderComponent {
   isHome$ = this.headerService.isHome();
 
   menuItems = [
-    { title: 'About Me', homePath: '/', fragment: 'about', pagePath: '/about' },
-    { title: 'My Projects', homePath: '/', fragment: 'projects', pagePath: '/projects' },
+    { title: 'Sobre Mim', homePath: '/', fragment: 'about', pagePath: '/about' },
+    { title: 'Meus Projetos', homePath: '/', fragment: 'projects', pagePath: '/projects' },
   ];
 
   constructor(private bioService: BioService, private headerService: HeaderService) { }
