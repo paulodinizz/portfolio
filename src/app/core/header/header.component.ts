@@ -13,11 +13,11 @@ export class HeaderComponent {
 
   menuItems = [
     { title: 'Sobre Mim', homePath: '/', fragment: 'about', pagePath: '/about' },
-    { title: 'Minhas Habilidades', homePath: '/', fragment: 'skills', pagePath: '/skills' },
+    { title: 'Minhas Skills', homePath: '/', fragment: 'skills', pagePath: '/skills' },
     { title: 'Meus Projetos', homePath: '/', fragment: 'projects', pagePath: '/projects' },
   ];
   smMenuItems = this.menuItems.concat([
-    { title: 'Contact Me', homePath: '/', fragment: 'contact', pagePath: '/contact' },
+    { title: 'Entre em contato', homePath: '/', fragment: 'contact', pagePath: '/contact' },
   ]);
 
 
