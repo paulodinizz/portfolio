@@ -1,0 +1,28 @@
+<div *ngFor="let options of tempOptions" [ngClass]="options.viewClasses"
+    class="flex-column align-items-center text-center vw-90 mx-auto">
+    <h1 [ngClass]="options.titleClasses" class="mb-5"><span class="font-weight-bold">Minhas</span> Skills</h1>
+    <div class="d-flex vw-90 justify-content-center text-color2" [ngClass]="{'flex-column': options.displayInColumn}"
+        *ngIf="skills$ | async as categories">
+        <div class="vw-90 d-flex justify-content-center" [ngClass]="{'flex-column': options.displayInColumn}"
+            *ngIf="!options.useSmallerHeadings">
+            <ul class="w-25 list-group ml-3 mr-3" *ngFor="let category of categories">
+                <li class="list-group-item">
+                    <h3 class="font-weight-lighter m-0 p-0">{{ category[0].category }}</h3>
+                </li>
+                <li class="list-group-item" *ngFor="let skill of category">
+                    <h4><i [class]="skill.iconClasses" class="mr-2"></i>{{skill.name}}</h4>
+                </li>
+            </ul>
+        </div>
+        <div *ngIf="options.useSmallerHeadings">
+            <ul class="list-group mb-4 mr-4 ml-4" *ngFor="let category of categories">
+                <li class="list-group-item">
+                    <h5 class="font-weight-lighter m-0 p-0">{{ category[0].category }}</h5>
+                </li>
+                <li class="list-group-item" *ngFor="let skill of category">
+                    <h6><i [class]="skill.iconClasses"></i>{{skill.name}}</h6>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>

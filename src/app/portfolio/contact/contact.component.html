@@ -1,0 +1,30 @@
+<div class="d-flex flex-column align-items-center text-center vw-90 mx-auto ">
+    <h1 class="d-none d-md-block display-3 mb-5"><span class="font-weight-bold">Entre em</span> Contato</h1>
+    <h1 class="d-block d-md-none mb-3"><span class="font-weight-bold">Entre em</span> Contato</h1>
+    <div class="d-flex vw-90 justify-content-center">
+        <form #form class="min-vw-40"  method="POST" >
+            <div *ngFor="let field of fields" class="form-group">
+                <label class="sr-only" for="inlineFormInputGroup">{{field.placeholder}}</label>
+                <div class="input-group mb-2">
+                    <div class="input-group-prepend">
+                        <div class="input-group-text bg-white border-dark text-color2"
+                            [ngClass]="{'align-items-start': field.isTextArea}">
+                            <i [class]="field.iconClasses + ' fa-lg'" [ngClass]="{'mt-1': field.isTextArea}"></i>
+                        </div>
+                    </div>
+                    <input *ngIf="field.isInput" [name]="field.name"  [type]="field.type"
+                        class="form-control  border-dark" id="inlineFormInputGroup" [placeholder]="field.placeholder"
+                        required>
+                    <textarea *ngIf="field.isTextArea" [name]="field.name" 
+                        class="form-control border-dark" id="message" [placeholder]="field.placeholder" rows="3"
+                        required></textarea>
+                </div>
+            </div>
+            <input type="hidden" name="_next" >
+            <button type="submit" class="btn btn-dark btn-lg " [disabled]="!contactForm.valid" (click)="form.submit()">
+                <i class="mr-1 far fa-paper-plane"></i>
+                Enviar
+            </button>
+        </form>
+    </div>
+</div>

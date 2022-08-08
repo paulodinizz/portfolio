@@ -1,0 +1,17 @@
+[
+    {
+        "tooltip": "Github",
+        "iconClasses": " fab fa-github-alt",
+        "url": "https://github.com/paulodinizz"
+    },
+    {
+        "tooltip": "LinkedIn",
+        "iconClasses": " fab fa-linkedin-in",
+        "url": "https://www.linkedin.com/in/paulo-henrique-diniz-8403b0240/"
+    },
+    {
+        "tooltip": "Instagram",
+        "iconClasses": " fab fa-instagram",
+        "url": "https://www.instagram.com/paulo_diniz23/"
+    }
+]

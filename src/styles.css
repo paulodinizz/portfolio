@@ -7,6 +7,7 @@ body {
     font-family: 'Nunito', Arial, Verdana, Geneva, Tahoma, sans-serif;
     background: rgb(0, 0, 0);
     background-size: 30px 30px;
+    color: white;
 }
 
 .vw-90 {

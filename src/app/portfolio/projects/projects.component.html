@@ -18,11 +18,11 @@
                     {{project.description}}
                 </p>
                 <div class="d-flex flex-row justify-content-start">
-                    <a [href]="project.previewUrl" *ngIf="project.previewUrl" class="btn btn-dark mr-2">
+                    <a [href]="project.previewUrl" *ngIf="project.previewUrl" type="button" class="btn btn-dark mr-2">
                         <i class="fa-lg mr-1 far fa-eye"></i>
                         Visualizar
                     </a>
-                    <a [href]="project.sourceUrl" *ngIf="project.sourceUrl" class="btn btn-dark">
+                    <a [href]="project.sourceUrl" *ngIf="project.sourceUrl" type="button" class="btn btn-dark">
                         <i class="fa-lg mr-1 fab fa-github-alt"></i>
                         Source
                     </a>

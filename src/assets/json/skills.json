@@ -1,0 +1,52 @@
+[
+    {
+        "name": "Html",
+        "iconClasses": "fab fa-html5",
+        "category": "Core Skills"
+    },
+    {
+        "name": "Css",
+        "iconClasses": "fab fa-css3",
+        "category": "Core Skills"
+    },
+    {
+        "name": "Bootstrap",
+        "iconClasses": "fab fa-bootstrap",
+        "category": "Core Skills"
+    },
+    {
+        "name": "React",
+        "iconClasses": "fab fa-react",
+        "category": "Interessado em Aprender"
+    },
+    {
+        "name": "Python",
+        "iconClasses": "fab fa-python",
+        "category": "Interessado em Aprender"
+    },
+    {
+        "name": "Java",
+        "iconClasses": "fab fa-java",
+        "category": "Interessado em Aprender"
+    },
+    {
+        "name": "Sass",
+        "iconClasses": "fab fa-sass",
+        "category": "Aprendendo"
+    },
+    {
+        "name": "Angular",
+        "iconClasses": "fab fa-angular",
+        "category": "Aprendendo"
+    },
+    {
+        "name": "Javascript",
+        "iconClasses": "fab fa-js",
+        "category": "Aprendendo"
+    },
+    {
+        "name": "Php",
+        "iconClasses": "fab fa-php",
+        "category": "Aprendendo"
+    }
+]

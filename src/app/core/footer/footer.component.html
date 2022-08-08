@@ -1,0 +1,9 @@
+
+<div class="d-flex min-vh-10 vw-90 d-flex flex-column justify-content-center m-2 mx-auto ">
+    <div class="d-flex justify-content-center m-2 flex-wrap" *ngIf="footerItems$ | async as footerItems">
+        <a *ngFor="let item of footerItems" [href]="item.url" type="button"
+            class="m-2 btn btn-light border-0 bg-transparent" placement="top" [ngbTooltip]="item.tooltip">
+            <i class="fa-2x text-color1" [ngClass]="item.iconClasses"></i>
+        </a>
+    </div>
+</div>

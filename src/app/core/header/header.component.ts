@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import { BioService } from '../services/bio.service';
 import { HeaderService } from '../services/header.service';
+import { BioService } from '../services/bio.service';
 
 @Component({
   selector: 'app-header',
@@ -13,8 +13,13 @@ export class HeaderComponent {
 
   menuItems = [
     { title: 'Sobre Mim', homePath: '/', fragment: 'about', pagePath: '/about' },
+    { title: 'Minhas Habilidades', homePath: '/', fragment: 'skills', pagePath: '/skills' },
     { title: 'Meus Projetos', homePath: '/', fragment: 'projects', pagePath: '/projects' },
   ];
+  smMenuItems = this.menuItems.concat([
+    { title: 'Contact Me', homePath: '/', fragment: 'contact', pagePath: '/contact' },
+  ]);
+
 
   constructor(private bioService: BioService, private headerService: HeaderService) { }
 }

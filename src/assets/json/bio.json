@@ -1,6 +1,6 @@
 {
     "firstName": "Paulo",
     "lastName": "Diniz",
-    "intro": [ "Eu sou um Desenvolvedor Web.", "Atualmente estou estudando sobre o framework Angular" ],
+    "intro": [ "Sou um Desenvolvedor Web.", "Atualmente estou estudando sobre o framework Angular" ],
     "about": [ "Desenvolvedor front-end, sem experiência de atuação em grandes projetos. Comecei os estudos sobre programação no ínicio de 2022 e me identifiquei mais com as linguagens usadas no desenvolvimento front-end, mas futuramente pretendo me tornar um desenvolvedor full stack e assim conseguir executar com excelência qualquer atividade que for designada a mim.", "Me considero uma pessoa esforçada, sempre dou o meu melhor e gosto de estar em constante aprendizagem para adquirir novos conhecimentos!" ]
 }
