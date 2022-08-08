@@ -2,17 +2,17 @@
     {
         "name": "Html",
         "iconClasses": "fab fa-html5",
-        "category": "Core Skills"
+        "category": "Principais Skills"
     },
     {
         "name": "Css",
         "iconClasses": "fab fa-css3",
-        "category": "Core Skills"
+        "category": "Principais Skills"
     },
     {
         "name": "Bootstrap",
         "iconClasses": "fab fa-bootstrap",
-        "category": "Core Skills"
+        "category": "Principais Skills"
     },
     {
         "name": "React",
